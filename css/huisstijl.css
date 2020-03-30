@@ -1,0 +1,32 @@
+#logo {float: left;
+
+
+}
+
+#navicon {float: right;}
+
+
+.menu li {display: inline;
+        
+
+
+}
+.menu {text-align: right;}
+
+
+.bot_header {color: white;
+            background-color: black;
+
+}
+
+footer {color: white;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {list-style-type: none;}
+
+.fa {visibility: hidden;}
