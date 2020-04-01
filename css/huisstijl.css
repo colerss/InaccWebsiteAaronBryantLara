@@ -57,7 +57,15 @@ footer ul {list-style-type: none;}
             background-color: lightgray;
             margin-bottom: 2%;
             padding: 1%}
+article{padding-top: 9%;}
 
+article .card-deck{margin-top: 2%;
+                    margin-bottom: 2%;
+
+}
+
+.card-img-top{padding-right:10%;
+            padding-left: 10%;}
 
     
 
