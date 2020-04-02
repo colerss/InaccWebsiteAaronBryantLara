@@ -20,7 +20,7 @@
   </head>
   <body>
     
-   <header>
+   <header id="headerheight" >
      <div class="container">
        <div class="row">
        <div class="col-sm-1"></div>
@@ -68,80 +68,55 @@
    </header>
    
 
-   <div class="headerplaceholder"><!--dient om een whitespace in te voegen waar de header zit--></div>
+   <div class="headerplaceholder" id="flowheight"><!--dient om een whitespace in te voegen waar de header zit--></div>
    <article>
-    <br>
 <div class="container">
-  <div class="inleiding">
+ 
       <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
+        <div class="inleiding">
     <h1>Onze vestigingen</h1>
     <p> De eerste vestiging van ons accountancykantoor ligt in Geel. Hier zijn we begonnen met de boekhouding van kapperszaken. In deze vestiging hebben we twintig medewerkers in dienst. <br>
     In Lichtaart hebben we vervolgens ook een vestiging opengedaan. Hier zijn we vooral bezig met boekhouding van kleine bijberoepen, vrijberoepen en grotere firma’s. Ook leveren we startup hulp. In Lichtaart zijn er zes mensen tewerk gesteld. <br>
     Onze derde vestiging ligt in Antwerpen. Hier zijn twee mensen tewerk gesteld. </p>
-  </div>
+    </div>
 
   <div class="vestigingen">
+    
     <h3>Vestiging Geel</h3><hr>
     <p>Diestseweg 32B<br>
       2440 Geel<br>
       Tel. :014/570460<br>
       Fax. : 014/570469<br>
       Email : info@inacc.be </p>
-
+   
       <h3>Vestiging Lichtaart</h3><hr>
-    <p>Herentalsesteenweg 22<br>
-      2460 Lichtaart<br>
+      <p>Herentalsesteenweg 22<br>
+        2460 Lichtaart<br>
       Tel. :014/40 50 30<br>
       Fax. : 014/40 50 39<br>
       Email : lichtaart@inacc.be </p>
 
       <h3>Vestiging Antwerpen</h3><hr>
-     <p> Sint-Jansveld 11<br>
+      <p> Sint-Jansveld 11<br>
       B-2160 Wommelgem<br>
       Tel : 03/870.43.00<br>
       Fax : 03/870.43.01<br>
       GSM : 0474/834.696<br>
       E-mail : gj@inacc.be </p>
-  </div>
-</div>
-</div>
-</div>
+    </div>
 
-  
-    <div class="container">
   <div class="map">
-      <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-    <div id="googleMap" style="width:100%;height:400px;"></div>
-		
-		<script>
-		function myMap() {
-		var mapProp= {
-		  center:new google.maps.LatLng(51.508742,-0.120850),
-		  zoom:5,
-		};
-		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-		}
-    </script>
-    
-    <iframe src="https://www.google.com.qa/maps/d/u/0/embed?mid=1cwwuOTYLW2lXx7ZWZdf_c6d9Ze079hQC" width="640" height="480"></iframe>
+    <div id="googleMap" style="width:100%;height:400px;">
+      <iframe src="https://www.google.com.qa/maps/d/u/0/embed?mid=1cwwuOTYLW2lXx7ZWZdf_c6d9Ze079hQC" width="640" height="480"></iframe>
+  
+    </div>
   </div>
-    </div>
-    </div>
-    </div>
-
+      </div>
+      </div>
 
 </article>
-
-    
-  
-    
-
-    
-
 
 
 
@@ -181,6 +156,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="js/inaccscripts.js"></script>
   </body>
 </html>
