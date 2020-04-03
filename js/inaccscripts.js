@@ -16,3 +16,46 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
+
+
+
+  
+    var foutenArray = new Array(); 
+
+    function VerzendenFormulier(){ 
+      foutenArray= [];
+         
+      checkEmptyField(document.getElementById("naam"), "Het veld naam is vereist."); 
+      
+  
+      if(validateEmail(document.getElementById("email").value)==false){ 
+        error="E-mailadres is niet correct."
+        foutenArray.push(error);
+        console.log(foutenArray);
+        error= "";
+      } 
+      checkEmptyField(document.getElementById("telefoon"), "Het veld telefoon is vereist.");
+      
+      checkEmptyField(document.getElementById("onderwerp"), "Het veld onderwerp is vereist.");
+  
+      checkEmptyField(document.getElementById("bericht"), "Je moet je bericht nog invullen.");
+  
+      var tekst= foutenArray.join("\n");
+  
+      alert(tekst);
+  } 
+  
+  
+            function checkEmptyField(veld, melding){
+                if(veld.value==""){
+                    foutenArray.push(melding);
+                    console.log(foutenArray);
+                    } 
+                 }
+  
+            function validateEmail(email) { 
+  
+              var testingMail = /^[a-z0-9][a-z0-9-_\.]+@([a-z]|[a-z0-9]?[a-z0-9-]+[a-z0-9])\.[a-z0-9]{2,10}(?:\.[a-z]{2,10})?$/;
+              return testingMail.test(String(email).toLowerCase());
+            }
+            

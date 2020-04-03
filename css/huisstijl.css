@@ -98,7 +98,7 @@ article.noback {margin-top: 2%;
     }
     
 
-    body { background: url(Bootstrap-Snippets-right-side-login-form.jpg); background-size:cover;}
+  
     .rtl-form { width:480px; background:#fff; padding:15px 30px; float: right; min-height: 105vh;}
     .rtl-form h1 { text-align: center; font-size: 25px; padding: 30px 0px; color: #666;}
     .rtl-form input[type="text"], input[type="password"] { margin:20px 0px 0px; }
