@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
     <link rel="icon" href="media/favicon.ico" type="image/x-icon"> 
-    <title>Hoofdpagina</title>
+    <title>Contact</title>
   </head>
   <body>
     
@@ -29,7 +29,7 @@
        
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
           <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item ">
+            <li class="nav-item">
               <a class="nav-link" href="hoofdpagina.html">Homepage </a>
             </li>
             <li class="nav-item seperator" > <a class="nav-link" href="#">|</a></li>
@@ -37,12 +37,12 @@
               <a class="nav-link" href="wiezijnwij.html">Wie zijn wij</a>
             </li>
             <li class="nav-item seperator" > <a class="nav-link" href="#">|</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="vestingen.html">Onze Vestingen</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="vestingen.html">Onze Vestingen<span class="sr-only">(current)</span></a>
             </li>
            <li class="nav-item seperator" > <a class="nav-link" href="#">|</a></li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -64,11 +64,124 @@
    </div>
 
    </header>
+<div class="headerplaceholder" id="flowheight"></div>
 
-   <div class="headerplaceholder" id="flowheight"><!--dient om een whitespace in te voegen waar de header zit--></div>
-   <article class="PLACEHOLDER_REMOVE_AFTER">
-<!--Verwijder de placeholder klasse na dat je content is geplaats, dit is enkel zodat de pagina niet op elkaar knalt--></article>
+   <article class="noback" >
+    <!--Verwijder de placeholder klasse na dat je content is geplaats, dit is enkel zodat de pagina niet op elkaar knalt-->
+  
+    <div class="container">
+     
+      
+      <div class="row">
+      
+        <div class="col-sm-6">
+          <div>
+            <img id="imgcontact" src="media\InaccFoto2.png" class="img-fluid" alt="Responsive image">
+          </div>
 
+          <h3>Gegevens</h3>
+        
+          <div class="card-deck">
+            
+            <div class="card contentcard">
+             
+              <div class="card-body">
+                <h5 class="card-title">Contactgegevens</h5>
+                <p class="card-text">Inacc Lichtaart<br/>
+                  Herentalsesteenweg 22 <br/>
+                  2460 Lichtaart<br/>
+                  Tel. :014/40 50 30<br/>
+                  Fax. : 014/40 50 39<br/>
+                  Email : lichtaart@inacc.be</p>
+              </div>
+            </div>
+           
+          </div>
+        
+
+        </div>
+      
+
+        
+        <div class="col-sm-6">
+          <h3>Contact</h3>
+        
+          <div class="card-deck">
+            
+            <div class="card contentcard">
+             
+              <div class="card-body">
+                <h5 class="card-title">Contacteer ons</h5>
+                <form name="formContact">
+                  <div class="row">
+                    <div class="col-sm">
+                    <label for="lastname">Naam</label>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="col-sm">
+                        <input type="text" class="form-control" placeholder="Uw naam" id="naam">
+                      </div>
+                    </div>
+      
+                      <br/>
+      
+                  <div class="row">
+                              <div class="col-sm">
+                            <label for="email">E-mailadres</label>
+                          </div>
+                        </div>
+                      <div class="row">
+                          <div class="col-sm">
+                            <input type="email" class="form-control" id="email" placeholder="mail@example.com">
+                          </div>
+                      </div>
+
+                      <br/>
+                          <div class="row-md-4">     
+                            <label for="adres">Telefoonnummer</label>
+                          </div>
+                          <div class="row-md-4">                         
+                            <input type="text" class="form-control" placeholder="+32..." id="telefoon">
+                          </div>
+      
+                          <br/>
+      
+                        <hr/>
+
+                        <div class="row-md-4">     
+                          <label for="adres">Onderwerp</label>
+                        </div>
+                        <div class="row-md-4">                         
+                          <input type="text" class="form-control" placeholder="Onderwerp" id="onderwerp">
+                        </div>
+
+                          <br/>
+
+                        <div class="row-md-4">     
+                          <label for="adres">Bericht</label>
+                        </div>
+                        <div class="row-md-4">                         
+                          <div class="form-group">
+                            <textarea class="form-control" placeholder="Typ iets..." id="bericht" rows="3"></textarea>
+                          </div>
+                        </div>
+                        <hr/>
+                        <hr/>
+                            
+                      <button  type="button" class="btn btn-primary btn-lg btn-block" onclick="VerzendenFormulier()">Verzenden</button>
+                      <br/>
+                </form>
+              </div>
+            </div>
+           
+          </div>
+        
+           
+          </div>
+        
+        
+        
   
   </article>
   <footer>
@@ -108,5 +221,50 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/inaccscripts.js"></script>
+
+    <script>
+  
+
+  var foutenArray = new Array(); 
+
+  function VerzendenFormulier(){ 
+    foutenArray= [];
+       
+    checkEmptyField(document.getElementById("naam"), "Het veld naam is vereist."); 
+    
+
+    if(validateEmail(document.getElementById("email").value)==false){ 
+      error="E-mailadres is niet correct."
+      foutenArray.push(error);
+      console.log(foutenArray);
+      error= "";
+    } 
+    checkEmptyField(document.getElementById("telefoon"), "Het veld telefoon is vereist.");
+    
+    checkEmptyField(document.getElementById("onderwerp"), "Het veld onderwerp is vereist.");
+
+    checkEmptyField(document.getElementById("bericht"), "Je moet je bericht nog invullen.");
+
+    var tekst= foutenArray.join("\n");
+
+    alert(tekst);
+} 
+
+
+          function checkEmptyField(veld, melding){
+              if(veld.value==""){
+                  foutenArray.push(melding);
+                  console.log(foutenArray);
+                  } 
+               }
+
+          function validateEmail(email) { 
+
+            var testingMail = /^[a-z0-9][a-z0-9-_\.]+@([a-z]|[a-z0-9]?[a-z0-9-]+[a-z0-9])\.[a-z0-9]{2,10}(?:\.[a-z]{2,10})?$/;
+            return testingMail.test(String(email).toLowerCase());
+          }
+          
+  </script>
+
   </body>
 </html>
