@@ -193,3 +193,7 @@ article.noback {margin-top: 2%;
  /*Veel verdere responsiveness is niet noodzakelijk om dat dit door Bootstrap grids word geregeld*/
 
   }
+
+  #btnMeerInfo{
+    text-align: center;
+  }
