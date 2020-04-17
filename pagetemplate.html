@@ -18,6 +18,24 @@
   </head>
   <body>
     
+
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+          
+    <a class="nav" href="hoofdpagina.html">Homepage <span class="sr-only">(current)</span></a>
+    <a class="nav" href="wiezijnwij.html">Wie zijn wij</a>
+    <a class="nav" href="vestingen.html">Onze Vestingen</a>
+     <a class="nav" href="contact.html">Contact</a>
+  </div>
+
+</div>
+
    <header>
      <div class="container">
        <div class="row">
@@ -46,9 +64,10 @@
             </li>
           </ul>
         </div>
+        <i class="fa" id="navicon"   onclick="openNav()">&#xf0c9;</i>
       </nav>
 
-      <i class="fa" id="navicon" hidden>&#xf0c9;</i>
+     
       </div>
       <div class="col-sm-1"></div>
     </div>
@@ -86,10 +105,10 @@
             <h6>Navigatiemenu</h6>
             <ul>
            
-           <li><a class="nav" href="#">Homepage <span class="sr-only">(current)</span></a></li>
-           <li><a class="nav" href="#">Wie zijn wij</a></li>
-           <li><a class="nav" href="#">Onze Vestingen</a></li>
-            <li><a class="nav" href="#">Contact</a></li>
+           <li><a class="nav" href="hoofdpagina.html">Homepage <span class="sr-only">(current)</span></a></li>
+           <li><a class="nav" href="wiezijnwij.html">Wie zijn wij</a></li>
+           <li><a class="nav" href="vestingen.html">Onze Vestingen</a></li>
+            <li><a class="nav" href="contact.html">Contact</a></li>
             
 
 
