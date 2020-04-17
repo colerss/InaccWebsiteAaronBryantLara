@@ -17,13 +17,28 @@
     <title>Contact</title>
   </head>
   <body>
-    
+        <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+          
+    <a class="nav" href="hoofdpagina.html">Homepage <span class="sr-only">(current)</span></a>
+    <a class="nav" href="wiezijnwij.html">Wie zijn wij</a>
+    <a class="nav" href="vestingen.html">Onze Vestingen</a>
+     <a class="nav" href="contact.html">Contact</a>
+  </div>
+
+</div>
    <header id="headerheight">
      <div class="container">
        <div class="row">
        <div class="col-sm-1"></div>
        <div class="col-sm-10">
-      <a href="hoofdpagina.html" id="logo"><img src="media/Logo_inacc.gif" alt="logoInacc" width="226px" height="127px"/></a>
+      <a href="hoofdpagina.html" id="logo"><img src="media/Logo_inacc.gif" id="logoimg" alt="logoInacc" width="226px" height="127px"/></a>
      
       <nav class="navbar navbar-expand-lg navbar-light">
        
@@ -46,9 +61,10 @@
             </li>
           </ul>
         </div>
+        <i class="fa" id="navicon"   onclick="openNav()">&#xf0c9;</i>
       </nav>
 
-      <i class="fa" id="navicon" hidden>&#xf0c9;</i>
+ 
       </div>
       <div class="col-sm-1"></div>
     </div>

@@ -17,13 +17,28 @@
     <title>Wie zijn wij</title>
   </head>
   <body>
-    
+        <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+          
+    <a class="nav" href="hoofdpagina.html">Homepage <span class="sr-only">(current)</span></a>
+    <a class="nav" href="wiezijnwij.html">Wie zijn wij</a>
+    <a class="nav" href="vestingen.html">Onze Vestingen</a>
+     <a class="nav" href="contact.html">Contact</a>
+  </div>
+
+</div>
    <header id="headerheight">
      <div class="container">
        <div class="row">
        <div class="col-sm-1"></div>
        <div class="col-sm-10">
-      <a href="hoofdpagina.html" id="logo"><img src="media/Logo_inacc.gif" alt="logoInacc" width="226px" height="127px"/></a>
+      <a href="hoofdpagina.html" id="logo"><img src="media/Logo_inacc.gif" id="logoimg" alt="logoInacc" width="226px" height="127px"/></a>
      
       <nav class="navbar navbar-expand-lg navbar-light">
        
@@ -46,9 +61,10 @@
             </li>
           </ul>
         </div>
+        <i class="fa" id="navicon"   onclick="openNav()">&#xf0c9;</i>
       </nav>
 
-      <i class="fa" id="navicon" hidden>&#xf0c9;</i>
+     
       </div>
       <div class="col-sm-1"></div>
     </div>
@@ -93,21 +109,21 @@
             
             <div class="card contentcard">
               <!--Alle afbeeldingen zijn waarschijnlijk gebruiksrechtelijk beschermt en moeten verwijderd worden voor publicatie-->
-              <img width="140" height="215" src="https://i.etsystatic.com/11428002/r/il/c84f3c/1115224445/il_570xN.1115224445_nb3f.jpg" class="card-img-top" alt="...">
+              <img width="140" height="215" src="media/hond0.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Voornaam Naam</h5>
                 <p class="card-text">Job en bijkomende</p>
               </div>
             </div>
             <div class="card contentcard">
-              <img width="140" height="215" src="https://i.pinimg.com/originals/da/40/81/da4081b82f7fa4cfb34d28dda86ba440.jpg" class="card-img-top" alt="...">
+              <img width="140" height="215" src="media/hond1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Voornaam Naam</h5>
                 <p class="card-text">Job en bijkomende</p>
               </div>
             </div>
             <div class="card contentcard">
-              <img width="140" height="215" src="https://i.pinimg.com/originals/76/a6/05/76a60579eb4313a970b268334b135c53.jpg" class="card-img-top" alt="...">
+              <img width="140" height="215" src="media/hon2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Voornaam Naam</h5>
                 <p class="card-text">Job en bijkomende</p>
@@ -124,21 +140,21 @@
         <div class="col-sm-10">
           <div class="card-deck">
             <div class="card contentcard">
-              <img width="140" height="215" src="https://i.pinimg.com/originals/da/40/81/da4081b82f7fa4cfb34d28dda86ba440.jpg" class="card-img-top" alt="...">
+              <img width="140" height="215" src="media/hond1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Voornaam Naam</h5>
                 <p class="card-text">Job en bijkomende</p>
               </div>
             </div>
             <div class="card contentcard">
-              <img width="140" height="215" src="https://i.pinimg.com/originals/76/a6/05/76a60579eb4313a970b268334b135c53.jpg" class="card-img-top" alt="...">
+              <img width="140" height="215" src="media/hon2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Voornaam Naam</h5>
                 <p class="card-text">Job en bijkomende</p>
               </div>
             </div>
             <div class="card contentcard">
-              <img width="140" height="215" src="https://i.etsystatic.com/11428002/r/il/c84f3c/1115224445/il_570xN.1115224445_nb3f.jpg" class="card-img-top" alt="...">
+              <img width="140" height="215" src="media/hond0.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Voornaam Naam</h5>
                 <p class="card-text">Job en bijkomende</p>

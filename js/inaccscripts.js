@@ -61,7 +61,7 @@ function myMap() {
             
 
 
-/* Open when someone clicks on the span element */
+/* Open when someone clicks on the  icon element */
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
