@@ -111,7 +111,7 @@ article.noback {margin-top: 2%;
 
 
 
-      /* The Overlay (background) */ /* This code is mostly reused code from W3*/
+      /* The Overlay (background) */ /* This code is mostly reused code from W3School https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp*/
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
     height: 100%;
