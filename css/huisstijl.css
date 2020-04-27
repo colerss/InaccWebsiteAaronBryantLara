@@ -198,6 +198,3 @@ article.noback {margin-top: 2%;
     text-align: center;
   }
 
-  @media screen and (max-width: 650px){ 
-    iframe  {width: 80%}
-    }
