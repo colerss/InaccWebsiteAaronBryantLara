@@ -198,3 +198,13 @@ article.noback {margin-top: 2%;
     text-align: center;
   }
 
+
+  @media screen and (min-width: 1920px){
+    .background-img {
+      background-size: auto;
+     
+  
+  
+  }
+  }
+
