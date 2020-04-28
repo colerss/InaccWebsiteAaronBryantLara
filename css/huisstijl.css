@@ -29,13 +29,13 @@ nav {height: 80px;
     }
 
 header {position: fixed;
-    background: rgb(221,219,235);
-    background: linear-gradient(90deg, rgba(221,219,235,1) 0%, rgba(102,98,98,1) 100%, rgba(0,212,255,1) 100%);
+  background: rgb(250,249,255);
+background: linear-gradient(10deg, rgba(250,249,255,1) 57%, rgba(219,219,219,1) 100%);
     width: 100%;
     z-index: 900;}
 footer {color: white;
-    background: rgb(76,74,84);
-    background: radial-gradient(circle, rgba(76,74,84,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(43,43,43);
+  background: linear-gradient(180deg, rgba(43,43,43,1) 0%, rgba(0,0,0,1) 99%);
     position: relative;
     padding-top: 20px;
     left: 0;
